@@ -1,0 +1,18 @@
+
+
+script_file_name: npc_strategy.py
+
+# ⚙️ Exchange and pair
+exchange: binance_perpetual_testnet
+trading_pair: ETH-USDT
+
+# 💰 Order config
+order_amount: 0.01
+order_refresh_time: 15
+
+# 📈 Price source config
+price_type: mid
+
+# 🕒 Candle data config
+candles_interval: 1m
+candles_max_records: 1000
